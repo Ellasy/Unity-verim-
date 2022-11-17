@@ -59,12 +59,14 @@ public class firstDoor : MonoBehaviour
 
         timerMoveablePlatform = timerMoveablePlatform - 1 * Time.deltaTime;
 
+        keyTransform.transform.Rotate(0, 0, Time.deltaTime * 60);
+
         if (timer <= 0)
         {
             if(k == 0)
             {
-                bigButton.transform.Rotate(80, 0, 0);
                 k += 1;
+                bigButton.transform.Rotate(80, 0, 0);
             } 
             Bevel.GetComponent<MeshRenderer>().material = materialBevel_false;
             Bevel1.GetComponent<MeshRenderer>().material = materialBevel_false;
@@ -77,14 +79,17 @@ public class firstDoor : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                bigButton.transform.Rotate(-80, 0, 0);
-                Bevel.GetComponent<MeshRenderer>().material = materialBevel_true;
-                Bevel1.GetComponent<MeshRenderer>().material = materialBevel_true;
-                Bevel2.GetComponent<MeshRenderer>().material = materialBevel_true;
-                door.SetActive(false);
-                secondDoor.SetActive(false);
-                timer = maxTimer;
-                k = k - 1;
+                if (k == 1)
+                {
+                    k = k - 1;
+                    bigButton.transform.Rotate(-80, 0, 0);
+                    Bevel.GetComponent<MeshRenderer>().material = materialBevel_true;
+                    Bevel1.GetComponent<MeshRenderer>().material = materialBevel_true;
+                    Bevel2.GetComponent<MeshRenderer>().material = materialBevel_true;
+                    door.SetActive(false);
+                    secondDoor.SetActive(false);
+                    timer = maxTimer;
+                }       
             }
         }
 

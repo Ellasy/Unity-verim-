@@ -860,7 +860,7 @@ MonoBehaviour:
   maxTimerBridge: 12
   maxTimerMoveablePlatform: 4
   speed: 5
-  k: 0
+  k: 1
   legendary: 0
   materialBevel_true: {fileID: 2100000, guid: d61fca2647330aa499855f0c24b7bb88, type: 2}
   materialBevel_false: {fileID: 2100000, guid: 0470f9244b5555348a77ec82a75b1da6, type: 2}
@@ -2081,14 +2081,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171088625}
-  m_LocalRotation: {x: 0.33238026, y: -0, z: -0, w: 0.9431455}
-  m_LocalPosition: {x: -3.95, y: 0.82, z: 12.92}
+  m_LocalRotation: {x: 0.3420201, y: 0, z: 0, w: 0.9396927}
+  m_LocalPosition: {x: -3.95, y: 0.45, z: 13.41}
   m_LocalScale: {x: 0.28498, y: 2.2686129, z: 0.27615064}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 38.827, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
 --- !u!1 &1289903579
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,10 +2704,10 @@ RectTransform:
   m_Father: {fileID: 208392869}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 475.78, y: 245.66}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -104.9, y: -18.8}
+  m_SizeDelta: {x: 250, y: 41.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1905119421
 MonoBehaviour:
@@ -2731,7 +2731,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
