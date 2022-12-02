@@ -816,6 +816,8 @@ GameObject:
   m_Component:
   - component: {fileID: 336323325}
   - component: {fileID: 336323324}
+  - component: {fileID: 336323326}
+  - component: {fileID: 336323327}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -837,34 +839,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   secondDoor: {fileID: 1451498363}
   bigButton: {fileID: 1171088625}
-  bridge: {fileID: 987713979}
-  moveablePlatform: {fileID: 47752795}
   door: {fileID: 545552044}
-  key: {fileID: 2110184200}
-  legendaryDrop: {fileID: 1289903579}
   Bevel: {fileID: 1897033033}
   Bevel1: {fileID: 2121763532}
   Bevel2: {fileID: 213525348}
-  legendaryTransform: {fileID: 1289903583}
-  keyTransform: {fileID: 2110184203}
   bigButtonTransform: {fileID: 1171088629}
   characterTransform: {fileID: 2104333742}
   interactionDistance: 1.7
   distance: 0
-  distance1: 0
-  distance2: 0
   timer: 0
-  timerBridge: 0
-  timerMoveablePlatform: 0
   maxTimer: 28
-  maxTimerBridge: 12
-  maxTimerMoveablePlatform: 4
-  speed: 5
   k: 1
-  legendary: 0
   materialBevel_true: {fileID: 2100000, guid: d61fca2647330aa499855f0c24b7bb88, type: 2}
   materialBevel_false: {fileID: 2100000, guid: 0470f9244b5555348a77ec82a75b1da6, type: 2}
-  myText: {fileID: 1905119421}
 --- !u!4 &336323325
 Transform:
   m_ObjectHideFlags: 0
@@ -880,6 +867,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &336323326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336323323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f9784579c7a494eac8157ee490e7f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bridge: {fileID: 987713979}
+  key: {fileID: 2110184200}
+  keyTransform: {fileID: 2110184203}
+  characterTransform: {fileID: 2104333742}
+  timerBridge: 0
+  maxTimerBridge: 14
+  interactionDistance: 1.7
+  distance: 0
+--- !u!114 &336323327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336323323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347451f534f02f44e971b2653c0c5cca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveablePlatform: {fileID: 47752795}
+  timerMoveablePlatform: 0
+  maxTimerMoveablePlatform: 4
+  speed: 5
 --- !u!1 &433071542
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,6 +2124,7 @@ GameObject:
   - component: {fileID: 1289903582}
   - component: {fileID: 1289903581}
   - component: {fileID: 1289903580}
+  - component: {fileID: 1289903584}
   m_Layer: 0
   m_Name: LegendaryDrop
   m_TagString: Untagged
@@ -2186,6 +2210,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1289903584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289903579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fefae2c5e14ce46ba4152034d63e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterTransform: {fileID: 2104333742}
+  interactionDistance: 1.7
+  distance: 0
+  legendary: 0
+  myText: {fileID: 1905119421}
 --- !u!1 &1451498363
 GameObject:
   m_ObjectHideFlags: 0
