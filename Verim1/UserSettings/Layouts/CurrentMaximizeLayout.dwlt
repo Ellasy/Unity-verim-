@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3e0bffff
-      m_LastClickedID: -62658
-      m_ExpandedIDs: f2c5fdff0289fefff4e2feffe6c9ffff20e4fffface5ffff3ef8ffff36fbffff64830000a2830000b683000034840000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.9653177, y: 2.8155482, z: -33.80095}
+    m_Target: {x: -5.657956, y: 1.8790863, z: -27.627048}
     speed: 2
-    m_Value: {x: -5.9653177, y: 2.8155482, z: -33.80095}
+    m_Value: {x: -5.657956, y: 1.8790863, z: -27.627048}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -551,9 +551,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06870513, y: 0.11813007, z: -0.008668617, w: 0.9904505}
+    m_Target: {x: 0.06759772, y: -0.07453998, z: 0.004592531, w: 0.9947835}
     speed: 2
-    m_Value: {x: 0.06871398, y: 0.11814529, z: -0.008669734, w: 0.9905781}
+    m_Value: {x: 0.06760647, y: -0.07454964, z: 0.004593126, w: 0.9949124}
   m_Size:
     m_Target: 3.2435408
     speed: 2
@@ -658,14 +658,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: L:\GitHub\Verim1
+  m_LastProjectPath: L:\GitHub\Unity-verim-\Verim1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 745c0000
-    m_LastClickedID: 23668
-    m_ExpandedIDs: 00000000745c0000dc5c000000ca9a3bffffff7f
+    m_SelectedIDs: 8e5d0000
+    m_LastClickedID: 23950
+    m_ExpandedIDs: 000000008e5d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -693,7 +693,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000745c0000
+    m_ExpandedIDs: 000000008e5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -718,9 +718,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 3e0bffff
-    m_LastClickedInstanceID: -62658
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -796,8 +796,8 @@ MonoBehaviour:
     y: 0
     width: 453
     height: 957
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
