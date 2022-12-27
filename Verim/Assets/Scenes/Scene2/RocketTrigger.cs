@@ -8,7 +8,7 @@ public class RocketTrigger : MonoBehaviour
     public float speed;
     public bool ButtonLaunch;
 
-    void OnTriggerStay(Collider Player)
+    void OnTriggerStay(Collider other)
     {
         if(Input.GetKeyDown(KeyCode.E))
             ButtonLaunch = true;

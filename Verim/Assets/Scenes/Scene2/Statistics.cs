@@ -6,18 +6,32 @@ using UnityEngine.UI;
 public class Statistics : MonoBehaviour
 {
     public bool CursorVisible;
+    public bool Key;
     public Text CoinsText;
     public int Coins;
-    public bool Key;
 
-    void Start()
+
+    void Awake()
     {
+        LoadCoins();
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = CursorVisible;
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Delete))
+            PlayerPrefs.DeleteAll();
         CoinsText.text = "Coins " + $"{Coins}";
+    }
+
+    public void SaveCoins()
+    {
+        PlayerPrefs.SetInt("Coins", Coins);
+    }
+
+    public void LoadCoins()
+    {
+        Coins = PlayerPrefs.GetInt("Coins");
     }
 }
